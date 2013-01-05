@@ -1,0 +1,5 @@
+--ui exports
+--reporter spec
+--bail2
+--slow 100
+--timeout 500
