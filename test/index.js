@@ -8,6 +8,8 @@ var Storage = require('node-document-storage');
 module.exports = Storage.Spec('KyototCabinet', {
   module: require('..'),
   engine: require('kyoto-fork-alphashack'),
+  id: 'kyotocabinet',
+  protocol: 'file',
   db: '/tmp/default-test',
   default_url: 'file:///tmp/default-test',
   authorized_url: undefined,
